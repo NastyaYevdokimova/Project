@@ -1,0 +1,8 @@
+flat:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/custom.js: {}
+  dependencies:
+    - core/jquery

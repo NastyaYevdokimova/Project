@@ -1,0 +1,17 @@
+type: theme
+core_version_requirement: ^8.8 || ^9
+base theme: bartik
+name: 'gallery_test'
+description: 'Picture gallery'
+package: ''
+
+libraries:
+  - building/flat
+libraries-extend:
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  footer_first: 'Footer first'
+
