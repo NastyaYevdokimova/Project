@@ -1,8 +1,7 @@
 <?php
 namespace Evdokymova\Module\Block;
-
-class Module extends \Magento\Framework\View\Element\Template
-{
+class Collection extends \Magento\Framework\View\Element\Template
+{    
    protected $_storeManager;
 protected $_categoryCollection;
 
@@ -22,14 +21,7 @@ public function getCategories(){
          ->setStore($this->_storeManager->getStore()); //categories from current store will be fetched
 
      foreach ($categories as $category){
-         echo $category->getName();
-	
+         $category->getName();
      }
  }
-
-
-    public function outWord($title){
-        $a='example' . $title;
-	return $a;
-    }
 }
